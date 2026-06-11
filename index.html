@@ -100,7 +100,7 @@ header.menu-open {
 }
 .header-inner {
   max-width: 1600px; margin: 0 auto;
-  padding: 0 4rem;
+  padding: 0 2rem;
   height: 64px;
   display: flex; align-items: center; gap: 1.5rem;
 }
@@ -210,7 +210,7 @@ nav.desktop-nav a:hover, nav.desktop-nav a.active { color: var(--foreground); }
 .hero-content {
   position: relative; z-index: 10;
   max-width: 1600px; margin: 0 auto;
-  padding: 0 4rem;
+  padding: 0 2rem;
   height: 100%;
   display: flex; align-items: flex-end;
   padding-bottom: 6rem;
@@ -430,7 +430,7 @@ nav.desktop-nav a:hover, nav.desktop-nav a.active { color: var(--foreground); }
 /* ─── TESTIMONIALS ─── */
 .testimonials {
   max-width: 1600px; margin: 6rem auto 0;
-  padding: 0 4rem;
+  padding: 0 2rem;
 }
 @media(min-width:768px) { .testimonials { padding: 0 4rem; } }
 .testimonials h2 {
@@ -489,11 +489,11 @@ footer {
 .footer-bottom {
   border-top: 1px solid var(--border);
   max-width: 1600px; margin: 0 auto;
-  padding: 1.5rem 2rem;
+  padding: 1.5rem 1rem;
   display: flex; flex-wrap: wrap; justify-content: space-between; gap: 0.5rem;
   font-size: 0.75rem; color: var(--muted-foreground);
 }
-@media(min-width:768px) { .footer-bottom { padding: 1.5rem 4rem; } }
+@media(min-width:768px) { .footer-bottom { padding: 1.5rem 2rem; } }
 
 /* ─── PAGES ─── */
 .page-container {
@@ -502,9 +502,9 @@ footer {
   max-width: 1600px; margin: 0 auto;
   padding-left: 2rem; padding-right: 2rem;
 }
-@media(min-width:768px) {
-  .page-container { padding-top: 8rem; padding-left: 4rem; padding-right: 4rem; }
-}
+@media(min-width:768px) {{
+  .page-container {{ padding-top: 8rem; padding-left: 4rem; padding-right: 4rem; }}
+}}
 .page-eyebrow {
   font-size: 0.72rem;
   text-transform: uppercase;
@@ -600,9 +600,9 @@ footer {
   position: relative; z-index: 10;
   margin-top: -40vh;
   max-width: 1400px; margin-left: auto; margin-right: auto;
-  padding: 0 4rem;
+  padding: 0 1rem;
 }
-@media(min-width:768px) { .detail-content { padding: 0 4rem; } }
+@media(min-width:768px) { .detail-content { padding: 0 2rem; } }
 .detail-grid {
   display: grid; gap: 2rem;
   grid-template-columns: 1fr;
@@ -672,11 +672,11 @@ footer {
 
 .detail-body {
   max-width: 1400px; margin: 5rem auto 0;
-  padding: 0 4rem;
+  padding: 0 1rem;
   display: grid; gap: 4rem;
   grid-template-columns: 1fr;
 }
-@media(min-width:768px) { .detail-body { padding: 0 4rem; } }
+@media(min-width:768px) { .detail-body { padding: 0 2rem; } }
 @media(min-width:1024px) { .detail-body { grid-template-columns: 1fr 360px; } }
 .detail-sections { display: flex; flex-direction: column; gap: 3.5rem; }
 .section-title { font-size: clamp(1.5rem,3vw,1.875rem); margin-bottom: 1.5rem; }
@@ -736,8 +736,8 @@ footer {
 .aside-from { font-size: 0.875rem; color: var(--muted-foreground); margin-bottom: 0.25rem; }
 .aside-price { font-family: "Space Grotesk"; font-size: 2.5rem; color: var(--primary); font-weight: 700; margin-bottom: 1rem; }
 .aside-note { font-size: 0.72rem; text-align: center; color: var(--muted-foreground); margin-top: 0.75rem; }
-.related { margin: 5rem auto 0; max-width: 1600px; padding: 0 4rem; }
-@media(min-width:768px) { .related { padding: 0 4rem; } }
+.related { margin: 5rem auto 0; max-width: 1600px; padding: 0 1rem; }
+@media(min-width:768px) { .related { padding: 0 2rem; } }
 .related h2 { font-size: clamp(1.5rem,3vw,1.875rem); margin-bottom: 1.5rem; }
 .related-scroll { display: flex; gap: 1rem; overflow-x: auto; padding-bottom: 1.5rem; }
 
